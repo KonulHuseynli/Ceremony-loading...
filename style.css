@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav,section{
+    display: block;
+}
+ul{
+    list-style: none;
+}
+/*  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>            SEKIL VE YAZILARIN ANIMASYASI ILK HISSEDE      <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.part1{
+    background-size:contain;
+    background-position: center center;
+    height: 100%;
+    position: absolute;
+}
+.box{
+    opacity: 0;
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+.box2{
+    opacity:    0;
+}
+.b1{
+    animation: ani1 15s infinite;
+    animation-duration: 70s;
+    position: absolute;
+}
+.b2{
+    animation: ani2 15s infinite;
+    animation-duration: 70s;
+    position: absolute;
+}
+.b3{
+    animation: ani3 15s infinite;
+    animation-duration: 70s;
+    position: absolute;
+
+}
+.b4{
+    animation: ani4 15s infinite;
+    animation-duration: 70s;
+
+}
+.b5{
+    animation: ani5 15s infinite;
+    animation-duration: 70s;
+}
+.b6{
+    animation: ani6 15s infinite;
+    animation-duration: 70s;
+}
+.b7{
+    animation: ani7 15s infinite;
+    animation-duration: 70s;
+}
+.b8{
+    animation: ani8 15s infinite;
+    animation-duration: 70s;
+}
+@keyframes ani1{
+    0%{
+        opacity: 0;
+    }
+    12.5%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 0;
+    }
+}
+@keyframes ani2{
+    15%{
+        opacity: 0;
+    }
+    37.5%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+@keyframes ani3{
+    45%{
+        opacity: 0;
+    }
+    62.5%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 0;
+    }
+}
+@keyframes ani4{
+    70%{
+        opacity: 0;
+    }
+    87.5%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes ani5{
+    0%{
+        opacity: 0;
+    }
+    12.5%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 0;
+    }
+}
+@keyframes ani6{
+    15%{
+        opacity: 0;
+    }
+    37.5%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+@keyframes ani7{
+    45%{
+        opacity: 0;
+    }
+    62.5%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 0;
+    }
+    
+}
+@keyframes ani8{
+    70%{
+        opacity: 0;
+    }
+    87.5%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.part1-text{
+    position: absolute;
+    top: 50%;
+    z-index: 100;
+    margin-top: 60px;
+    transform: translateY(-50%);
+    width: calc(30vw - 50px);
+    left: 15%;
+}
+.part1-text h1{
+    padding-top: 12px;
+    max-width: 300px;
+    line-height: 1.3;
+    padding-bottom: 15px;
+    font-size: 45px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.title span {
+display: flex;
+align-items: center;
+}
+
+.part1-text p{
+margin-top: 15px;
+line-height: 1.5;
+width: 75%;
+max-width: 300px;
+}
+.part1-text a{
+    display: inline-block;
+    margin-top: 30px;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .1rem;
+    color: #000;
+    position: relative;
+    font-weight: 500;
+    font-size: .8rem;
+}
+/*  ***************************************************************************************************************************   */
+
+nav.global {
+    position: relative;
+    z-index: 100;
+    /* transition: transform .5s cubic-bezier(0.28, 0, 0.18, 1);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translate3d(0, 0, 0); */
+}
+ ul.main {
+    float: left;
+    margin-left: 24px;
+
+}
+
+ ul.main {
+    position: relative;
+    margin-top: 60px;
+}
+
+
+ul.main li {
+    float: left;
+    margin-right: 30px;
+}
+ul.main li a {
+    line-height: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: .8rem;
+    letter-spacing: .075rem;
+    color: #000;
+    display: inline-block;
+    transition: color 1s cubic-bezier(0.28, 0, 0.18, 1);
+    position: relative;
+    font-weight: 500;
+}
+
+.logo , .logo span{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    margin-top: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    color: black;
+    font-weight:500;
+    text-decoration: none;
+    transition: color 1s cubic-bezier(0.28, 0, 0.18, 1);
+}
+.logo{
+    margin-top: 3rem;
+}
+ul.right {
+    float: right;
+    margin-left: 0;
+}
+
